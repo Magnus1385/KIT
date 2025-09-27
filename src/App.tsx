@@ -128,9 +128,14 @@ function App() {
             Conteúdo que Vende, acesso Vitalício e <strong>Zero Mensalidades!</strong>
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <button className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-4 px-8 rounded-full text-lg shadow-2xl transform hover:scale-105 transition-all duration-300 animate-bounce-slow">
+            <a 
+              href="https://pay.kiwify.com.br/QvaBrg1" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-4 px-8 rounded-full text-lg shadow-2xl transform hover:scale-105 transition-all duration-300 animate-bounce-slow inline-block"
+            >
               🚀 QUERO LOTAR MINHA AGENDA HOJE!
-            </button>
+            </a>
             <div className="text-sm text-purple-200">
               ⚡ Oferta por Tempo Limitado - Últimas Vagas!
             </div>
@@ -398,9 +403,14 @@ function App() {
           </div>
           
           <p className="text-xl mb-8">⚠️ Esta oferta é por TEMPO LIMITADO e para as primeiras 100 pessoas!</p>
-          <button className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-6 px-12 rounded-full text-2xl shadow-2xl transform hover:scale-105 transition-all duration-300 mb-6 animate-bounce-slow">
+          <a 
+            href="https://pay.kiwify.com.br/QvaBrg1" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-6 px-12 rounded-full text-2xl shadow-2xl transform hover:scale-105 transition-all duration-300 mb-6 animate-bounce-slow inline-block"
+          >
             🚀 SIM! QUERO GARANTIR POR R$ 26,63!
-          </button>
+          </a>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-6 text-sm">
             <div className="flex items-center gap-2">
               <Check className="w-5 h-5 text-green-400" />
@@ -465,9 +475,14 @@ function App() {
             <div className="text-lg mb-2">🔥 OFERTA COMPLETA:</div>
             <div className="text-sm text-purple-200">Fotos + 3 Bônus Exclusivos (Valor R$ 26,63)</div>
           </div>
-          <button className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-6 px-12 rounded-full text-2xl shadow-2xl transform hover:scale-105 transition-all duration-300 mb-8 animate-bounce-slow">
+          <a 
+            href="https://pay.kiwify.com.br/QvaBrg1" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-6 px-12 rounded-full text-2xl shadow-2xl transform hover:scale-105 transition-all duration-300 mb-8 animate-pulse-slow inline-block"
+          >
             🔥 GARANTIR MINHAS FOTOS AGORA - R$ 26,63
-          </button>
+          </a>
           <div className="text-sm text-purple-200">
             ✅ Acesso imediato • ✅ Garantia de 7 dias • ✅ Acesso a atualizações
           </div>
