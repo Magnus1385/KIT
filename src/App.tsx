@@ -213,8 +213,8 @@ function App() {
               <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6">
                 <Gift className="w-8 h-8 text-purple-600" />
               </div>
-              <h3 className="text-xl font-bold mb-4 text-gray-800">+130 Fotos Profissionais</h3>
-              <p className="text-gray-600 mb-4">Fotos de alta qualidade para Reels, Stories e Posts. Focadas em harmonização, limpeza de pele, massagens e mais!</p>
+              <h3 className="text-xl font-bold mb-4 text-gray-800">+130 Fotos Validadas</h3>
+              <p className="text-gray-600 mb-4">Fotos de alta qualidade para Reels, Stories e Posts. Focadas em todos os tipos de procedimentos!</p>
               <div className="text-sm text-purple-600 font-semibold">✅ Qualidade Profissional</div>
             </div>
             
@@ -297,7 +297,7 @@ function App() {
                   <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <p className="text-gray-700 mb-6 italic">"As fotos são incríveis! Economizei mais de 10 horas por semana sem precisar fazer sessões fotográficas. Meu faturamento triplicou!"</p>
+              <p className="text-gray-700 mb-6 italic">"As fotos são incríveis! Economizei mais de 10 horas por semana sem precisar fazer sessões fotográficas. Meu faturamento triplicou depois das fotos validadas!"</p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-pink-200 rounded-full flex items-center justify-center mr-4">
                   <span className="text-pink-700 font-bold">JS</span>
@@ -467,13 +467,14 @@ function App() {
           </h2>
           <p className="text-xl mb-8">Não perca mais tempo criando fotos amadoras que não convertem. Sua concorrência já está usando fotos profissionais como estas!</p>
           <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6 mb-8 max-w-md mx-auto">
-            <div className="text-lg mb-2">⏳ Restam apenas:</div>
-            <div className="text-3xl font-bold text-yellow-300 animate-pulse">23 vagas</div>
-            <div className="text-sm mt-2">com preço promocional</div>
+            <div className="text-lg mb-2">⏳ Valor limitado:</div>
+            <div className="text-3xl font-bold text-yellow-300 animate-pulse">
+              De <span className="line-through">R$363</span> por R$26,63
+            </div>
           </div>
           <div className="mb-6">
             <div className="text-lg mb-2">🔥 OFERTA COMPLETA:</div>
-            <div className="text-sm text-purple-200">Fotos + 3 Bônus Exclusivos (Valor R$ 26,63)</div>
+            <div className="text-sm text-purple-200">Kit + 3 Bônus Exclusivos (Valor R$ 26,63)</div>
           </div>
           <a 
             href="https://pay.kiwify.com.br/QvaBrg1" 
@@ -492,7 +493,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h3 className="text-2xl font-bold mb-4">Kit de Fotos Profissionais</h3>
+          <h3 className="text-2xl font-bold mb-4">Kit marketing estetico </h3>
           <p className="text-gray-400 mb-8">A solução definitiva para profissionais de estética que querem lotar sua agenda com fotos de qualidade.</p>
           <div className="border-t border-gray-700 pt-8 text-sm text-gray-400">
             <p>© 2024 Kit de Fotos Profissionais. Todos os direitos reservados.</p>
