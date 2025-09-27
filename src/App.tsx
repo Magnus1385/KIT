@@ -481,7 +481,7 @@ function App() {
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-6 px-12 rounded-full text-2xl shadow-2xl transform hover:scale-105 transition-all duration-300 mb-8 animate-pulse-slow inline-block"
           >
-            🔥 GARANTIR MINHAS FOTOS AGORA - R$ 26,63
+            🔥 GARANTIR MEU KIT AGORA - R$ 26,63
           </a>
           <div className="text-sm text-purple-200">
             ✅ Acesso imediato • ✅ Garantia de 7 dias • ✅ Acesso a atualizações
