@@ -253,8 +253,8 @@ function App() {
               <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6">
                 <Gift className="w-8 h-8 text-purple-600" />
               </div>
-              <h3 className="text-xl font-bold mb-4 text-gray-800">+130 Fotos Profissionais</h3>
-              <p className="text-gray-600 mb-4">Fotos de alta qualidade para Reels, Stories e Posts. Focadas em harmonização, limpeza de pele, massagens e mais!</p>
+              <h3 className="text-xl font-bold mb-4 text-gray-800">+130 Fotos Validadas</h3>
+              <p className="text-gray-600 mb-4">Fotos de alta qualidade para Reels, Stories e Posts. Focadas em todos os procedimentos!</p>
               <div className="text-sm text-purple-600 font-semibold">✅ Qualidade Profissional</div>
             </div>
             
@@ -337,7 +337,7 @@ function App() {
                   <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <p className="text-gray-700 mb-6 italic">"As fotos são incríveis! Economizei mais de 10 horas por semana sem precisar fazer sessões fotográficas. Meu faturamento triplicou!"</p>
+              <p className="text-gray-700 mb-6 italic">"As fotos são incríveis! Economizei mais de 10 horas por semana sem precisar fazer sessões fotográficas. Meu faturamento triplicou com as fotos Validadas!"</p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-pink-200 rounded-full flex items-center justify-center mr-4">
                   <span className="text-pink-700 font-bold">JS</span>
