@@ -1,10 +1,10 @@
-import React from 'react';
-import { Check, Clock, Users, Zap, Star, ChevronDown, ArrowRight, Gift, X } from 'lucide-react';
+import React, { useEffect } from 'react';
+import { Check, Clock, Users, Zap, Star, ChevronDown, Gift, X } from 'lucide-react';
 
-// Função para disparar o evento do Pixel
-const trackFbqEvent = () => {
+// Função para disparar eventos do Pixel
+const trackFbqEvent = (eventName: string) => {
   if (window.fbq) {
-    window.fbq('track', 'Lead');
+    window.fbq('track', eventName);
   }
 };
 
@@ -118,6 +118,38 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
 }
 
 function App() {
+  
+  // Efeito para carregar e inicializar o Meta Pixel
+  useEffect(() => {
+    if (!window.fbq) {
+      window.fbq = function() {
+        window.fbq.callMethod ?
+        window.fbq.callMethod.apply(window.fbq, arguments) :
+        window.fbq.queue.push(arguments);
+      };
+      if (!window._fbq) window._fbq = window.fbq;
+      window.fbq.push = window.fbq;
+      window.fbq.loaded = true;
+      window.fbq.version = '2.0';
+      window.fbq.queue = [];
+    }
+    
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://connect.facebook.net/en_US/fbevents.js';
+    document.head.appendChild(script);
+
+    window.fbq('init', '791810663260950');
+    window.fbq('track', 'PageView');
+    
+    return () => {
+      // Verifica se o script ainda é filho do head antes de remover
+      if (script.parentNode) {
+        document.head.removeChild(script);
+      }
+    };
+  }, []);
+
   return (
     <div className="min-h-screen bg-white">
       <PurchaseNotifications />
@@ -139,7 +171,7 @@ function App() {
               href="https://pay.kiwify.com.br/QvaBrg1" 
               target="_blank" 
               rel="noopener noreferrer"
-              onClick={trackFbqEvent}
+              onClick={() => trackFbqEvent('InitiateCheckout')}
               className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-4 px-8 rounded-full text-lg shadow-2xl transform hover:scale-105 transition-all duration-300 animate-bounce-slow inline-block"
             >
               🚀 QUERO LOTAR MINHA AGENDA HOJE!
@@ -415,7 +447,7 @@ function App() {
             href="https://pay.kiwify.com.br/QvaBrg1" 
             target="_blank" 
             rel="noopener noreferrer"
-            onClick={trackFbqEvent}
+            onClick={() => trackFbqEvent('InitiateCheckout')}
             className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-6 px-12 rounded-full text-2xl shadow-2xl transform hover:scale-105 transition-all duration-300 mb-6 animate-bounce-slow inline-block"
           >
             🚀 SIM! QUERO GARANTIR POR R$ 26,63!
@@ -483,13 +515,13 @@ function App() {
           </div>
           <div className="mb-6">
             <div className="text-lg mb-2">🔥 OFERTA COMPLETA:</div>
-            <div className="text-sm text-purple-200">Kit + 3 Bônus Exclusivos (Valor R$ 26,63)</div>
+            <div className="text-sm text-purple-200">Fotos + 3 Bônus Exclusivos (Valor R$ 26,63)</div>
           </div>
           <a 
             href="https://pay.kiwify.com.br/QvaBrg1" 
             target="_blank" 
             rel="noopener noreferrer"
-            onClick={trackFbqEvent}
+            onClick={() => trackFbqEvent('InitiateCheckout')}
             className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-6 px-12 rounded-full text-2xl shadow-2xl transform hover:scale-105 transition-all duration-300 mb-8 animate-pulse-slow inline-block"
           >
             🔥 GARANTIR MEU KIT AGORA - R$ 26,63
@@ -503,7 +535,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h3 className="text-2xl font-bold mb-4">Kit marketing estetico</h3>
+          <h3 className="text-2xl font-bold mb-4">Kit marketing estetica</h3>
           <p className="text-gray-400 mb-8">A solução definitiva para profissionais de estética que querem lotar sua agenda com fotos de qualidade.</p>
           <div className="border-t border-gray-700 pt-8 text-sm text-gray-400">
             <p>© 2024 Kit de Fotos Profissionais. Todos os direitos reservados.</p>
