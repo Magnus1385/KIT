@@ -515,7 +515,7 @@ function App() {
           </div>
           <div className="mb-6">
             <div className="text-lg mb-2">🔥 OFERTA COMPLETA:</div>
-            <div className="text-sm text-purple-200">Fotos + 3 Bônus Exclusivos (Valor R$ 26,63)</div>
+            <div className="text-sm text-purple-200">Kit + 3 Bônus Exclusivos (Valor R$ 26,63)</div>
           </div>
           <a 
             href="https://pay.kiwify.com.br/QvaBrg1" 
@@ -524,7 +524,7 @@ function App() {
             onClick={() => trackFbqEvent('InitiateCheckout')}
             className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-6 px-12 rounded-full text-2xl shadow-2xl transform hover:scale-105 transition-all duration-300 mb-8 animate-pulse-slow inline-block"
           >
-            🔥 GARANTIR MINHAS FOTOS AGORA - R$ 26,63
+            🔥 GARANTIR MEU KIT AGORA - R$ 26,63
           </a>
           <div className="text-sm text-purple-200">
             ✅ Acesso imediato • ✅ Garantia de 7 dias • ✅ Acesso a atualizações
@@ -535,7 +535,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h3 className="text-2xl font-bold mb-4">Kit de Fotos Profissionais</h3>
+          <h3 className="text-2xl font-bold mb-4">Kit marketing estetico</h3>
           <p className="text-gray-400 mb-8">A solução definitiva para profissionais de estética que querem lotar sua agenda com fotos de qualidade.</p>
           <div className="border-t border-gray-700 pt-8 text-sm text-gray-400">
             <p>© 2024 Kit de Fotos Profissionais. Todos os direitos reservados.</p>
