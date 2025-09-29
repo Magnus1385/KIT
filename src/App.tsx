@@ -167,14 +167,6 @@ function App() {
             Conteúdo que Vende, acesso Vitalício e <strong>Zero Mensalidades!</strong>
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <a 
-              href="https://pay.kiwify.com.br/QvaBrg1" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              onClick={() => trackFbqEvent('InitiateCheckout')}
-              className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-4 px-8 rounded-full text-lg shadow-2xl transform hover:scale-105 transition-all duration-300 animate-bounce-slow inline-block"
-            >
-              🚀 QUERO LOTAR MINHA AGENDA HOJE!
             </a>
             <div className="text-sm text-purple-200">
               ⚡ Oferta por Tempo Limitado - Últimas Vagas!
