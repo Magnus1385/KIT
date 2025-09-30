@@ -163,11 +163,10 @@ function App() {
             e vai te encher de clientes em 7 Dias!
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-purple-100 max-w-4xl mx-auto leading-relaxed">
-            O Kit Marketing Estético que economiza <strong>95% do seu tempo</strong> na criação de conteúdo. 
+            O Kit Marketing Estético que economiza <strong>95% do seu tempo</strong> na criação de conteúdo.
             Conteúdo que Vende, acesso Vitalício e <strong>Zero Mensalidades!</strong>
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            </a>
             <div className="text-sm text-purple-200">
               ⚡ Oferta por Tempo Limitado - Últimas Vagas!
             </div>
