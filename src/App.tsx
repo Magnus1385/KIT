@@ -468,7 +468,7 @@ function App() {
           </h2>
           <div className="space-y-6">
             <FAQItem 
-              question="Para quem é o Kit de Fotos Profissionais?"
+              question="Para quem é o Kit Marketing Estético?"
               answer="Para todas as profissionais de estética: Esteticistas, Designers de Sobrancelha, Terapeutas Capilares, Micropigmentadoras, profissionais de Harmonização Facial e qualquer pessoa que trabalhe com beleza e bem-estar."
             />
             <FAQItem 
