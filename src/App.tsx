@@ -434,11 +434,10 @@ function App() {
           </div>
           
           <p className="text-xl mb-8">⚠️ Esta oferta é por TEMPO LIMITADO e para as primeiras 100 pessoas!</p>
-          <a 
-            href="https://pay.kiwify.com.br/QvaBrg1" 
-            target="_blank" 
+          <a
+            href="https://pay.kiwify.com.br/QvaBrg1"
+            target="_blank"
             rel="noopener noreferrer"
-            onClick={() => trackFbqEvent('InitiateCheckout')}
             className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-6 px-12 rounded-full text-2xl shadow-2xl transform hover:scale-105 transition-all duration-300 mb-6 animate-bounce-slow inline-block"
           >
             🚀 SIM! QUERO GARANTIR POR R$ 26,63!
@@ -508,11 +507,10 @@ function App() {
             <div className="text-lg mb-2">🔥 OFERTA COMPLETA:</div>
             <div className="text-sm text-purple-200">Kit + 3 Bônus Exclusivos (Valor R$ 26,63)</div>
           </div>
-          <a 
-            href="https://pay.kiwify.com.br/QvaBrg1" 
-            target="_blank" 
+          <a
+            href="https://pay.kiwify.com.br/QvaBrg1"
+            target="_blank"
             rel="noopener noreferrer"
-            onClick={() => trackFbqEvent('InitiateCheckout')}
             className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-6 px-12 rounded-full text-2xl shadow-2xl transform hover:scale-105 transition-all duration-300 mb-8 animate-pulse-slow inline-block"
           >
             🔥 GARANTIR MEU KIT AGORA - R$ 26,63
