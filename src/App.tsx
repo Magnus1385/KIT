@@ -76,7 +76,7 @@ function PurchaseNotifications() {
               <div>
                 <p className="text-sm font-semibold text-gray-800">{notification.name}</p>
                 <p className="text-xs text-gray-600">{notification.city}</p>
-                <p className="text-xs text-green-600 font-medium">Acabou de comprar o Kit!</p>
+                <p className="text-xs text-green-600 font-medium">Acabou de comprar o método!</p>
                 <p className="text-xs text-gray-500">{notification.timeAgo} min atrás</p>
               </div>
             </div>
