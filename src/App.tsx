@@ -164,7 +164,7 @@ function App() {
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-purple-100 max-w-4xl mx-auto leading-relaxed">
             Com o Método 60k com estética você vai economizar <strong>95% do seu tempo</strong> e vai agendar 10x mais pelo seu whatsapp.
-            Conteúdo que Vende, acesso Vitalício e <strong>Zero Mensalidades!</strong>
+            Destrave o seu faturamento com um passo a passo simples <strong>Zero Mensalidades!</strong>
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <div className="text-sm text-purple-200">
