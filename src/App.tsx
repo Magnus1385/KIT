@@ -158,7 +158,7 @@ function App() {
       <section className="bg-gradient-to-br from-purple-600 via-purple-700 to-pink-600 text-white py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            CHEGA DE CONTEÚDO SEM RESULTADO:<br />
+            CHEGA DE AGENDA VAZIA:<br />
             <span className="text-yellow-300 animate-pulse">Método 60k com estética</span><br />
             A Metodologia Secreta que levou clínicas á mais de R$60mil de faturamento.
           </h1>
