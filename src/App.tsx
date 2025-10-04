@@ -493,7 +493,7 @@ function App() {
       <section className="py-20 px-4 bg-gradient-to-br from-purple-600 via-purple-700 to-pink-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-8">
-            ⏰ Última Chance de Garantir seu kit com 93% de Desconto!
+            ⏰ Última Chance de Garantir seu Método com 93% de Desconto!
           </h2>
           <p className="text-xl mb-8">Não perca mais tempo criando fotos amadoras que não convertem. Sua concorrência já está usando fotos profissionais como estas!</p>
           <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6 mb-8 max-w-md mx-auto">
