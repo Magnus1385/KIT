@@ -385,7 +385,7 @@ function App() {
               <div className="flex justify-between items-center bg-white/10 rounded-lg p-4">
                 <div>
                   <div className="font-semibold text-lg">📝 BÔNUS #1: 150 Scripts Validados</div>
-                  <div className="text-sm text-purple-200">Scripts prontos para</div> fechar mais vendas.
+                  <div className="text-sm text-purple-200">Scripts prontos para fechar mais vendas. </div>
                 </div>
                 <div className="text-right">
                   <div className="line-through text-red-300">R$ 97</div>
