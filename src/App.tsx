@@ -160,7 +160,7 @@ function App() {
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             CHEGA DE CONTEÚDO SEM RESULTADO:<br />
             <span className="text-yellow-300 animate-pulse">Com o Método 60k</span><br />
-            O Método Secreto que Tirou Clínicas de Estética do Faturamento de $10 mil para Mais de $60 mil
+            O Método Secreto que levou clínicas á mais de R$60mil de faturamento.
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-purple-100 max-w-4xl mx-auto leading-relaxed">
             O Kit Marketing Estético que economiza <strong>95% do seu tempo</strong> na criação de conteúdo.
