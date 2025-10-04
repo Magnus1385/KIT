@@ -289,7 +289,7 @@ function App() {
                 <Star className="w-8 h-8 text-yellow-600" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-gray-800">3 Bônus Exclusivos</h3>
-              <p className="text-gray-600 mb-4">GRÁTIS: 150 Scripts Validados + Guia de Vídeos que Vendem + Gatilhos Mentais fechar Vendas na Estética!</p>
+              <p className="text-gray-600 mb-4">GRÁTIS: 150 Scripts Validados + Guia de fotos que vendem + Gatilhos Mentais fechar Vendas na Estética!</p>
               <div className="text-sm text-yellow-600 font-semibold">🎁 Valor Extra R$ 00</div>
             </div>
           </div>
