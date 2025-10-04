@@ -168,7 +168,6 @@ function App() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <div className="text-sm text-purple-200">
-              ⚡ Oferta por Tempo Limitado - Últimas Vagas!
             </div>
           </div>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-8 text-sm">
