@@ -213,7 +213,7 @@ function App() {
                 <Zap className="w-8 h-8 text-red-600" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-center text-gray-800">Tá sem criatividade pra conteúdo?</h3>
-              <p className="text-gray-600 text-center">Não ter fotos profissionais que mostrem a qualidade do seu trabalho e conquistem clientes?</p>
+              <p className="text-gray-600 text-center">Saber o que postar é essencial pra o aumento de seu faturamento atravéz do instagram!!</p>
             </div>
           </div>
         </div>
