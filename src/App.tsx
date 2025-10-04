@@ -523,7 +523,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h3 className="text-2xl font-bold mb-4">Kit marketing estetico</h3>
+          <h3 className="text-2xl font-bold mb-4">Método 60k com Estética</h3>
           <p className="text-gray-400 mb-8">A solução definitiva para profissionais de estética que querem lotar sua agenda com fotos de qualidade.</p>
           <div className="border-t border-gray-700 pt-8 text-sm text-gray-400">
             <p>© 2024 Método 60k com Estética.. Todos os direitos reservados.</p>
