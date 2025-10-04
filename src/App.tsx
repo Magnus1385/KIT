@@ -227,7 +227,7 @@ function App() {
           </h2>
           <p className="text-xl md:text-2xl mb-16 text-gray-600 max-w-4xl mx-auto">
             Apresentamos o <strong className="text-purple-600">Método 60k com estética</strong> - 
-            a solução definitiva para profissionais de estética que querem <strong>AUMENTAR O FATURAMENTO</strong> sem perder tempo criando fotos do zero.
+            a solução definitiva para profissionais de estética que querem <strong>AUMENTAR O FATURAMENTO</strong> sem perder tempo com estratégias que não funciona.
           </p>
         </div>
       </section>
