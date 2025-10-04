@@ -470,7 +470,7 @@ function App() {
               answer="Para todas as profissionais de estética: Esteticistas, Designers de Sobrancelha, Terapeutas Capilares, Micropigmentadoras, profissionais de Harmonização Facial e qualquer pessoa que trabalhe com beleza e bem-estar."
             />
             <FAQItem 
-              question="Preciso ter conhecimento em fotografia?"
+              question="Preciso ter conhecimento em Marketing ou edição?"
               answer="Não! As fotos são totalmente prontas para uso. Você só precisa baixar e postar com sua marca. É simples assim!"
             />
             <FAQItem 
