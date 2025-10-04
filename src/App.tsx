@@ -471,7 +471,7 @@ function App() {
             />
             <FAQItem 
               question="Preciso ter conhecimento em Marketing ou edição?"
-              answer="Não! As fotos são totalmente prontas para uso. Você só precisa baixar e postar com sua marca. É simples assim!"
+              answer="Não! A metodologia e fotos são totalmente práticas para uso. Você só precisa baixar e postar com sua marca. É simples assim!"
             />
             <FAQItem 
               question="O acesso é realmente para sempre?"
