@@ -236,7 +236,7 @@ function App() {
       <section className="py-20 px-4 bg-gradient-to-br from-purple-50 to-pink-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-800">
-            O Que Você Recebe ao Garantir o seu Kit Marketing estético Hoje?
+            O Que Você Recebe ao Garantir o seu Método Hoje?
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-2xl shadow-xl border-t-4 border-purple-500 hover:shadow-2xl hover:scale-105 transition-all duration-300">
