@@ -495,7 +495,7 @@ function App() {
           <h2 className="text-3xl md:text-4xl font-bold mb-8">
             ⏰ Última Chance de Garantir seu Método com 93% de Desconto!
           </h2>
-          <p className="text-xl mb-8">Não perca mais tempo criando fotos amadoras que não convertem. Sua concorrência já está usando fotos profissionais como estas!</p>
+          <p className="text-xl mb-8">Não perca mais tempo criando Conteúdos amadores que não vendem!</p>
           <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6 mb-8 max-w-md mx-auto">
             <div className="text-lg mb-2">⏳ Valor limitado:</div>
             <div className="text-3xl font-bold text-yellow-300 animate-pulse">
