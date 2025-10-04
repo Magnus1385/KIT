@@ -280,7 +280,7 @@ function App() {
                 <Users className="w-8 h-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-gray-800">Gatilhos de Vendas</h3>
-              <p className="text-gray-600 mb-4">Script com gatilhos validados de venda, que fazem o seu cliente agendar e ir até sua clínica.</p>
+              <p className="text-gray-600 mb-4">Gatilhos mentais que vão do início da conversa até o momento onde o cliente vai até sua clínica..</p>
               <div className="text-sm text-blue-600 font-semibold">🧠 Psicologia Aplicada</div>
             </div>
             
