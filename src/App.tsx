@@ -396,7 +396,7 @@ function App() {
               <div className="flex justify-between items-center bg-white/10 rounded-lg p-4">
                 <div>
                   <div className="font-semibold text-lg">🎥 BÔNUS #2: Guia de fotos que vendem.</div>
-                  <div className="text-sm text-purple-200">Roteiros completos para criar vídeos irresistíveis</div>
+                  <div className="text-sm text-purple-200">Roteiros completos para criar fotos que transformam seguidores em agendamentos.</div>
                 </div>
                 <div className="text-right">
                   <div className="line-through text-red-300">R$ 50</div>
