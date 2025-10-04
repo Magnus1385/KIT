@@ -163,7 +163,7 @@ function App() {
             O Método Secreto que levou clínicas á mais de R$60mil de faturamento.
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-purple-100 max-w-4xl mx-auto leading-relaxed">
-            O Método 60k economiza <strong>95% do seu tempo</strong> na criação de conteúdo.
+            O Método 60k vai economizar <strong>95% do seu tempo</strong> na criação de conteúdo.
             Conteúdo que Vende, acesso Vitalício e <strong>Zero Mensalidades!</strong>
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -206,13 +206,13 @@ function App() {
                 <Users className="w-8 h-8 text-red-600" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-center text-gray-800">Agenda Sempre Vazia?</h3>
-              <p className="text-gray-600 text-center">Postar fotos amadoras que não geram resultado e ver sua concorrência sempre com agenda lotada</p>
+              <p className="text-gray-600 text-center">Com o método 60k você vai ter um passo a passo do que executar pra enxer sua agenda.</p>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg border border-red-100 hover:shadow-xl transition-shadow duration-300">
               <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                 <Zap className="w-8 h-8 text-red-600" />
               </div>
-              <h3 className="text-xl font-bold mb-4 text-center text-gray-800">Fotos Sem Qualidade?</h3>
+              <h3 className="text-xl font-bold mb-4 text-center text-gray-800">Tá sem criatividade pra conteúdo?</h3>
               <p className="text-gray-600 text-center">Não ter fotos profissionais que mostrem a qualidade do seu trabalho e conquistem clientes?</p>
             </div>
           </div>
