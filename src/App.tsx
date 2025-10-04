@@ -206,7 +206,7 @@ function App() {
                 <Users className="w-8 h-8 text-red-600" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-center text-gray-800">Agenda Sempre Vazia?</h3>
-              <p className="text-gray-600 text-center">Com o método 60k você vai ter um passo a passo do que executar pra enxer sua agenda.</p>
+              <p className="text-gray-600 text-center">Com o método 60k você vai ter um passo a passo do que executar pra lotar sua agenda.</p>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg border border-red-100 hover:shadow-xl transition-shadow duration-300">
               <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6 mx-auto">
