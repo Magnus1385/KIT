@@ -327,7 +327,7 @@ function App() {
                   <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <p className="text-gray-700 mb-6 italic">"O método é incrível. Economizei mais de 10 horas por semana sem precisar fazer sessões fotográficas. Meu faturamento triplicou com as fotos Validadas!"</p>
+              <p className="text-gray-700 mb-6 italic">"O método é incrível. Economizei mais de 10 horas por semana sem precisar fazer sessões fotográficas. Meu faturamento triplicou com o método e as imagens Validadas!"</p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-pink-200 rounded-full flex items-center justify-center mr-4">
                   <span className="text-pink-700 font-bold">JS</span>
