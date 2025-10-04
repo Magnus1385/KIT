@@ -271,7 +271,7 @@ function App() {
                 <Check className="w-8 h-8 text-green-600" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-gray-800">Scripts por validados por especialidade</h3>
-              <p className="text-gray-600 mb-4">Fotos segmentadas: Harmonização facial, Limpeza de pele, Massagens, Sobrancelhas, Cuidados capilares e muito mais!</p>
+              <p className="text-gray-600 mb-4">Método Prático: é só acompanhar o passo a passo e colocar em prática pra ver sua agenda começar a lotar.</p>
               <div className="text-sm text-green-600 font-semibold">🎯 Totalmente Personalizado</div>
             </div>
             
