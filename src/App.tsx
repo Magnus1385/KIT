@@ -226,7 +226,7 @@ function App() {
             A Solução Está Aqui! ✨
           </h2>
           <p className="text-xl md:text-2xl mb-16 text-gray-600 max-w-4xl mx-auto">
-            Apresentamos o <strong className="text-purple-600">Kit Marketing Estético</strong> - 
+            Apresentamos o <strong className="text-purple-600">Método 60k com estética</strong> - 
             a solução definitiva para profissionais de estética que querem <strong>RESULTADOS REAIS</strong> sem perder tempo criando fotos do zero.
           </p>
         </div>
