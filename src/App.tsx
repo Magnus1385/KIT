@@ -504,7 +504,7 @@ function App() {
           </div>
           <div className="mb-6">
             <div className="text-lg mb-2">🔥 OFERTA COMPLETA:</div>
-            <div className="text-sm text-purple-200">Método + 3 Bônus Exclusivos (Valor R$ 26,63)</div>
+            <div className="text-sm text-purple-200">Método60k + 3 Bônus Exclusivos (Valor R$ 26,63)</div>
           </div>
           <a
             href="https://pay.kiwify.com.br/QvaBrg1"
