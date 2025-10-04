@@ -159,8 +159,8 @@ function App() {
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             CHEGA DE CONTEÚDO SEM RESULTADO:<br />
-            <span className="text-yellow-300 animate-pulse">Kit marketing Estético</span><br />
-            Aumento de faturamento com Fotos e estratégias validadas
+            <span className="text-yellow-300 animate-pulse">O Método 60k</span><br />
+            o único passo a passo validado que tem tirado clínicas de estética do baixo faturamento e as levado para mais de $60.000 mensais."
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-purple-100 max-w-4xl mx-auto leading-relaxed">
             O Kit Marketing Estético que economiza <strong>95% do seu tempo</strong> na criação de conteúdo.
@@ -177,11 +177,11 @@ function App() {
             </div>
             <div className="flex items-center gap-2">
               <Check className="w-5 h-5 text-green-400" />
-              <span>Acesso Vitalício</span>
+              <span>Scripts validados</span>
             </div>
             <div className="flex items-center gap-2">
               <Check className="w-5 h-5 text-green-400" />
-              <span>Zero Mensalidades</span>
+              <span>Estratégias Validadas</span>
             </div>
           </div>
         </div>
@@ -206,7 +206,7 @@ function App() {
                 <Users className="w-8 h-8 text-red-600" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-center text-gray-800">Agenda Sempre Vazia?</h3>
-              <p className="text-gray-600 text-center">Postar fotos amadoras que não geram resultado e ver sua concorrência sempre com agenda lotada?</p>
+              <p className="text-gray-600 text-center">Postar fotos amadoras que não geram resultado e ver sua concorrência sempre com agenda lotada</p>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg border border-red-100 hover:shadow-xl transition-shadow duration-300">
               <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6 mx-auto">
