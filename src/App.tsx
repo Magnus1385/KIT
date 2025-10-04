@@ -244,7 +244,7 @@ function App() {
                 <Gift className="w-8 h-8 text-purple-600" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-gray-800">O passo a passo pra ultrapassar os 60k de Faturamento.</h3>
-              <p className="text-gray-600 mb-4">O segredo que clínicas milionárias utiliza pra ir além dos 60k de faturamento!.</p>
+              <p className="text-gray-600 mb-4">O segredo que clínicas milionárias utilizam pra ir além dos 60k de faturamento!.</p>
               <div className="text-sm text-purple-600 font-semibold">✅ Qualidade Profissional</div>
             </div>
             
