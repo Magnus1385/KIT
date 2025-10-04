@@ -345,7 +345,7 @@ function App() {
                   <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <p className="text-gray-700 mb-6 italic">"Os scriptsme ajudaram muito, aumentei minha taxa de fechamento dos agendamentos que fiz. E minhas postagens agora têm muito mais engajamento e recebo mensagens todos os dias pedindo para agendar. Recomendo demais!"</p>
+              <p className="text-gray-700 mb-6 italic">"Os scripts me ajudaram muito, aumentei minha taxa de fechamento dos agendamentos que fiz. E minhas postagens agora têm muito mais engajamento e recebo mensagens todos os dias pedindo para agendar. Recomendo demais!"</p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-orange-200 rounded-full flex items-center justify-center mr-4">
                   <span className="text-orange-700 font-bold">RF</span>
