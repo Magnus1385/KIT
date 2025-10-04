@@ -466,7 +466,7 @@ function App() {
           </h2>
           <div className="space-y-6">
             <FAQItem 
-              question="Para quem é o Kit Marketing Estético?"
+              question="Para quem é o Método 60k com Estética?"
               answer="Para todas as profissionais de estética: Esteticistas, Designers de Sobrancelha, Terapeutas Capilares, Micropigmentadoras, profissionais de Harmonização Facial e qualquer pessoa que trabalhe com beleza e bem-estar."
             />
             <FAQItem 
