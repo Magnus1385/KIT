@@ -478,7 +478,7 @@ function App() {
               answer="Sim! Pagamento único de R$ 26,63 e você tem acesso vitalício ao kit completo. Sem mensalidades, sem taxas extras, sem pegadinhas. É seu para sempre!"
             />
             <FAQItem 
-              question="Como recebo as fotos após a compra?"
+              question="Como recebo o Método?"
               answer="Após a confirmação do pagamento, você receberá imediatamente por e-mail o link de acesso à plataforma com todas as +130 fotos organizadas por categoria."
             />
             <FAQItem 
