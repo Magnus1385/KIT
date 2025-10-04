@@ -173,7 +173,7 @@ function App() {
           <div className="flex flex-col sm:flex-row justify-center items-center gap-8 text-sm">
             <div className="flex items-center gap-2">
               <Check className="w-5 h-5 text-green-400" />
-              <span>+130 Fotos Profissional</span>
+              <span>+130 Fotos Profissionais</span>
             </div>
             <div className="flex items-center gap-2">
               <Check className="w-5 h-5 text-green-400" />
