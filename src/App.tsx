@@ -479,7 +479,7 @@ function App() {
             />
             <FAQItem 
               question="Como recebo o Método?"
-              answer="Após a confirmação do pagamento, você receberá imediatamente por e-mail o link de acesso à plataforma com todas as +130 fotos organizadas por categoria."
+              answer="Após a confirmação do pagamento, você receberá imediatamente por e-mail o link de acesso à plataforma com todo conteúdo."
             />
             <FAQItem 
               question="Há garantia de satisfação?"
