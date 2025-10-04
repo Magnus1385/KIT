@@ -309,7 +309,7 @@ function App() {
                   <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <p className="text-gray-700 mb-6 italic">"Em apenas 2 semanas usando as fotos profissionais, minha agenda estava completamente lotada! As imagens fazem toda a diferença na atração de clientes."</p>
+              <p className="text-gray-700 mb-6 italic">"Em apenas 2 semanas usando o método, minha agenda estava completamente lotada! O passo a passo fazem toda a diferença na atração de clientes."</p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-purple-200 rounded-full flex items-center justify-center mr-4">
                   <span className="text-purple-700 font-bold">MC</span>
