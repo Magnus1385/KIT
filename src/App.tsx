@@ -163,7 +163,7 @@ function App() {
             A Metodologia Secreta que levou clínicas á mais de R$60mil de faturamento.
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-purple-100 max-w-4xl mx-auto leading-relaxed">
-            Com o Método 60k com estética você vai economizar <strong>95% do seu tempo</strong> e vai agendar 10x mais pelo seu whatsapp.
+            Com o MÉTODO 60k COM ESTÉTICA você vai economizar <strong>95% do seu tempo</strong> e vai agendar 10x mais pelo seu whatsapp.
             Destrave o seu faturamento com um <strong>passo a passo simples</strong>
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
