@@ -93,7 +93,7 @@ button {
 /* Mobile optimizations */
 @media (max-width: 768px) {
   .notification-slide-in {
-    display: none;
+    font-size: 0.875rem;
   }
 }
 
