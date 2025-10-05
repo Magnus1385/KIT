@@ -62,29 +62,29 @@ function PurchaseNotifications() {
   };
 
   return (
-    <div className="fixed left-4 top-2/3 lg:top-1/2 transform -translate-y-1/2 z-50 space-y-3 hidden lg:block">
+    <div className="fixed left-2 right-2 sm:left-4 sm:right-auto top-2/3 lg:top-1/2 transform -translate-y-1/2 z-50 space-y-2 sm:space-y-3">
       {notifications.map((notification) => (
         <div
           key={notification.id}
-          className="bg-white border border-green-200 rounded-lg shadow-lg p-4 max-w-sm notification-slide-in"
+          className="bg-white border border-green-200 rounded-lg shadow-lg p-2 sm:p-4 max-w-xs sm:max-w-sm notification-slide-in mx-auto sm:mx-0"
         >
           <div className="flex items-start justify-between">
-            <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
-                <Check className="w-5 h-5 text-green-600" />
+            <div className="flex items-center space-x-2 sm:space-x-3">
+              <div className="w-8 h-8 sm:w-10 sm:h-10 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
+                <Check className="w-4 h-4 sm:w-5 sm:h-5 text-green-600" />
               </div>
               <div>
-                <p className="text-sm font-semibold text-gray-800">{notification.name}</p>
-                <p className="text-xs text-gray-600">{notification.city}</p>
-                <p className="text-xs text-green-600 font-medium">Acabou de comprar o método!</p>
-                <p className="text-xs text-gray-500">{notification.timeAgo} min atrás</p>
+                <p className="text-xs sm:text-sm font-semibold text-gray-800">{notification.name}</p>
+                <p className="text-[10px] sm:text-xs text-gray-600">{notification.city}</p>
+                <p className="text-[10px] sm:text-xs text-green-600 font-medium">Acabou de comprar o método!</p>
+                <p className="text-[10px] sm:text-xs text-gray-500">{notification.timeAgo} min atrás</p>
               </div>
             </div>
             <button
               onClick={() => removeNotification(notification.id)}
-              className="text-gray-400 hover:text-gray-600 transition-colors"
+              className="text-gray-400 hover:text-gray-600 transition-colors flex-shrink-0"
             >
-              <X className="w-4 h-4" />
+              <X className="w-3 h-3 sm:w-4 sm:h-4" />
             </button>
           </div>
         </div>
