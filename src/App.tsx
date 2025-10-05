@@ -62,7 +62,7 @@ function PurchaseNotifications() {
   };
 
   return (
-    <div className="fixed left-4 top-1/2 transform -translate-y-1/2 z-50 space-y-3 hidden lg:block">
+    <div className="fixed left-4 top-2/3 lg:top-1/2 transform -translate-y-1/2 z-50 space-y-3 hidden lg:block">
       {notifications.map((notification) => (
         <div
           key={notification.id}
