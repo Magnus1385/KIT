@@ -375,7 +375,7 @@ function App() {
               <div className="flex justify-between items-center bg-white/10 rounded-lg p-4">
                 <div>
                   <div className="font-semibold text-lg">✅ Método60k Com Estética</div>
-                  <div className="text-sm text-purple-200">Scripts de Fechamento Validado</div>
+                  <div className="text-sm text-purple-200">Marque até 10 agendamentos na primeira semana!!</div>
                 </div>
                 <div className="text-right">
                   <div className="line-through text-red-300">R$ 97</div>
