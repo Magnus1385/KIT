@@ -422,7 +422,7 @@ function App() {
                 </div>
                 <div className="text-center mt-4">
                   <div className="text-lg mb-2">HOJE VOCÊ PAGA APENAS:</div>
-                  <div className="text-6xl font-bold text-yellow-300 mb-2 animate-pulse">R$ 26,63</div>
+                  <div className="text-6xl font-bold text-yellow-300 mb-2 animate-pulse">R$ 9,90</div>
                   <div className="text-lg">💳 Pagamento único - Sem mensalidades!</div>
                   <div className="text-sm text-green-300 font-semibold mt-2">
                     💰 ECONOMIA DE R$ 363 (93% OFF)
@@ -439,7 +439,7 @@ function App() {
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-6 px-12 rounded-full text-2xl shadow-2xl transform hover:scale-105 transition-all duration-300 mb-6 animate-bounce-slow inline-block"
           >
-            🚀 SIM! QUERO GARANTIR POR R$ 26,63!
+            🚀 SIM! QUERO GARANTIR POR R$ 9,90!
           </a>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-6 text-sm">
             <div className="flex items-center gap-2">
@@ -475,7 +475,7 @@ function App() {
             />
             <FAQItem 
               question="O acesso é realmente para sempre?"
-              answer="Sim! Pagamento único de R$ 26,63 e você tem acesso vitalício ao kit completo. Sem mensalidades, sem taxas extras, sem pegadinhas. É seu para sempre!"
+              answer="Sim! Pagamento único de R$ 9,90 e você tem acesso vitalício ao kit completo. Sem mensalidades, sem taxas extras, sem pegadinhas. É seu para sempre!"
             />
             <FAQItem 
               question="Como recebo o Método?"
@@ -499,12 +499,12 @@ function App() {
           <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6 mb-8 max-w-md mx-auto">
             <div className="text-lg mb-2">⏳ Valor limitado:</div>
             <div className="text-3xl font-bold text-yellow-300 animate-pulse">
-              De <span className="line-through">R$363</span> por R$26,63
+              De <span className="line-through">R$363</span> por R$9,90
             </div>
           </div>
           <div className="mb-6">
             <div className="text-lg mb-2">🔥 OFERTA COMPLETA:</div>
-            <div className="text-sm text-purple-200">Método60k + 3 Bônus Exclusivos (Valor R$ 26,63)</div>
+            <div className="text-sm text-purple-200">Método60k + 3 Bônus Exclusivos (Valor R$ 9,90)</div>
           </div>
           <a
             href="https://pay.kiwify.com.br/QvaBrg1"
@@ -512,7 +512,7 @@ function App() {
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-6 px-12 rounded-full text-2xl shadow-2xl transform hover:scale-105 transition-all duration-300 mb-8 animate-pulse-slow inline-block"
           >
-            🔥 GARANTIR MEU Método AGORA - R$ 26,63
+            🔥 GARANTIR MEU Método AGORA - R$ 9,90
           </a>
           <div className="text-sm text-purple-200">
             ✅ Acesso imediato • ✅ Garantia de 7 dias • ✅ Acesso a atualizações
