@@ -253,7 +253,7 @@ function App() {
                 <Clock className="w-8 h-8 text-pink-600" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-gray-800">95% de Tempo Economizado</h3>
-              <p className="text-gray-600 mb-4">Pare de perder horas criando posts que não vendem. Com nossas imagens validadas, você só precisa baixar e postar com sua marca pra começar a ver os resultados.</p>
+              <p className="text-gray-600 mb-4">Pare de perder horas criando posts que não vendem. Com nosso conteúdo validado você pode agendar até 10 novos clientes por semana!</p>
               <div className="text-sm text-pink-600 font-semibold">⏰ Mais Tempo para Atender</div>
             </div>
             
