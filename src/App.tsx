@@ -154,23 +154,17 @@ function App() {
     <div className="min-h-screen bg-white">
       <PurchaseNotifications />
       
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-purple-600 via-purple-700 to-pink-600 text-white py-20 px-4">
+      {/* Section 1: Hero + Promise */}
+      <section className="bg-gradient-to-br from-purple-600 via-purple-700 to-pink-600 text-white py-16 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             CHEGA DE AGENDA VAZIA:<br />
-            <span className="text-yellow-300 animate-pulse">Método60k com estética</span><br />
-            A Metodologia Secreta que levou clínicas á mais de R$60mil de faturamento.
+            <span className="text-yellow-300 animate-pulse">Método60k com estética</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-purple-100 max-w-4xl mx-auto leading-relaxed">
-            Com o <strong>MÉTODO 60k COM ESTÉTICA</strong> você vai economizar <strong>95% do seu tempo</strong> e vai <strong>agendar até 10 novos clientes </strong> na primeira semana.
-            Destrave o seu faturamento com um <strong>passo a passo simples</strong>
+            A Metodologia que leva clínicas a <strong>R$60mil+ de faturamento</strong>. Economize <strong>95% do seu tempo</strong> e <strong>agende até 10 novos clientes</strong> na primeira semana com um passo a passo simples.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <div className="text-sm text-purple-200">
-            </div>
-          </div>
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-8 text-sm">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-6 text-sm mb-8">
             <div className="flex items-center gap-2">
               <Check className="w-5 h-5 text-green-400" />
               <span>Método secreto e prático</span>
@@ -184,353 +178,311 @@ function App() {
               <span>Estratégias Validadas</span>
             </div>
           </div>
+          <a
+            href="https://pay.kiwify.com.br/QvaBrg1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-5 px-10 rounded-full text-xl shadow-2xl transform hover:scale-105 transition-all duration-300 animate-pulse inline-block"
+          >
+            🚀 QUERO LOTAR MINHA AGENDA AGORA!
+          </a>
         </div>
       </section>
 
-      {/* Problem Section */}
-      <section className="py-20 px-4 bg-gray-50">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-800">
+      {/* Section 2: Problem + Solution + Features Combined */}
+      <section className="py-16 px-4 bg-white">
+        <div className="max-w-6xl mx-auto">
+          {/* Problems */}
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 text-gray-800">
             Você Está Cansada de...
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-2xl shadow-lg border border-red-100 hover:shadow-xl transition-shadow duration-300">
-              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                <Clock className="w-8 h-8 text-red-600" />
+          <div className="grid md:grid-cols-3 gap-6 mb-16">
+            <div className="bg-red-50 p-6 rounded-xl border-l-4 border-red-500">
+              <div className="flex items-start gap-4">
+                <Clock className="w-8 h-8 text-red-600 flex-shrink-0" />
+                <div>
+                  <h3 className="text-lg font-bold mb-2 text-gray-800">Perder Horas Criando Conteúdo?</h3>
+                  <p className="text-gray-600 text-sm">Conteúdos que ninguém curte = desperdício de tempo e faturamento perdido</p>
+                </div>
               </div>
-              <h3 className="text-xl font-bold mb-4 text-center text-gray-800">Perder Horas Criando Conteúdo?</h3>
-              <p className="text-gray-600 text-center">você cria conteúdos que ninguém curte ou chama no Direct, Isso é desperdicio de tempo e faturamento perdido</p>
             </div>
-            <div className="bg-white p-8 rounded-2xl shadow-lg border border-red-100 hover:shadow-xl transition-shadow duration-300">
-              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                <Users className="w-8 h-8 text-red-600" />
+            <div className="bg-red-50 p-6 rounded-xl border-l-4 border-red-500">
+              <div className="flex items-start gap-4">
+                <Users className="w-8 h-8 text-red-600 flex-shrink-0" />
+                <div>
+                  <h3 className="text-lg font-bold mb-2 text-gray-800">Agenda Sempre Vazia?</h3>
+                  <p className="text-gray-600 text-sm">Sem estratégia clara, sem clientes. É hora de mudar isso!</p>
+                </div>
               </div>
-              <h3 className="text-xl font-bold mb-4 text-center text-gray-800">Agenda Sempre Vazia?</h3>
-              <p className="text-gray-600 text-center">Com o método60k você vai ter um passo a passo do que executar pra lotar sua agenda.</p>
             </div>
-            <div className="bg-white p-8 rounded-2xl shadow-lg border border-red-100 hover:shadow-xl transition-shadow duration-300">
-              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                <Zap className="w-8 h-8 text-red-600" />
+            <div className="bg-red-50 p-6 rounded-xl border-l-4 border-red-500">
+              <div className="flex items-start gap-4">
+                <Zap className="w-8 h-8 text-red-600 flex-shrink-0" />
+                <div>
+                  <h3 className="text-lg font-bold mb-2 text-gray-800">Sem Criatividade?</h3>
+                  <p className="text-gray-600 text-sm">Saber o que postar é essencial para aumentar seu faturamento!</p>
+                </div>
               </div>
-              <h3 className="text-xl font-bold mb-4 text-center text-gray-800">Tá sem criatividade pra conteúdo?</h3>
-              <p className="text-gray-600 text-center">Saber o que postar é essencial pra o aumento de seu faturamento atravéz do instagram!!</p>
+            </div>
+          </div>
+
+          {/* Solution + Features */}
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">
+              A Solução Completa Está Aqui! ✨
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-12">
+              O <strong className="text-purple-600">Método60k com estética</strong> é a solução definitiva para profissionais de estética que querem <strong>AUMENTAR O FATURAMENTO</strong> sem perder tempo.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-xl border-t-4 border-purple-500">
+              <Gift className="w-12 h-12 text-purple-600 mb-4" />
+              <h3 className="text-lg font-bold mb-2 text-gray-800">Passo a Passo para 60k+</h3>
+              <p className="text-gray-600 text-sm">O segredo das clínicas milionárias</p>
+            </div>
+            <div className="bg-gradient-to-br from-pink-50 to-pink-100 p-6 rounded-xl border-t-4 border-pink-500">
+              <Clock className="w-12 h-12 text-pink-600 mb-4" />
+              <h3 className="text-lg font-bold mb-2 text-gray-800">95% de Tempo Economizado</h3>
+              <p className="text-gray-600 text-sm">Até 10 novos clientes por semana</p>
+            </div>
+            <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-xl border-t-4 border-orange-500">
+              <Zap className="w-12 h-12 text-orange-600 mb-4" />
+              <h3 className="text-lg font-bold mb-2 text-gray-800">Acesso Vitalício</h3>
+              <p className="text-gray-600 text-sm">Pagamento único, sem mensalidades</p>
+            </div>
+            <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl border-t-4 border-green-500">
+              <Check className="w-12 h-12 text-green-600 mb-4" />
+              <h3 className="text-lg font-bold mb-2 text-gray-800">Scripts Validados</h3>
+              <p className="text-gray-600 text-sm">Método prático para lotar sua agenda</p>
+            </div>
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl border-t-4 border-blue-500">
+              <Users className="w-12 h-12 text-blue-600 mb-4" />
+              <h3 className="text-lg font-bold mb-2 text-gray-800">Gatilhos de Vendas</h3>
+              <p className="text-gray-600 text-sm">Psicologia aplicada do início ao fim</p>
+            </div>
+            <div className="bg-gradient-to-br from-yellow-50 to-yellow-100 p-6 rounded-xl border-t-4 border-yellow-500">
+              <Star className="w-12 h-12 text-yellow-600 mb-4" />
+              <h3 className="text-lg font-bold mb-2 text-gray-800">3 Bônus Exclusivos</h3>
+              <p className="text-gray-600 text-sm">150 Scripts + Guia de Fotos + Gatilhos</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Solution Section */}
-      <section className="py-20 px-4 bg-white">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl md:text-5xl font-bold mb-8 text-gray-800">
-            A Solução Está Aqui! ✨
-          </h2>
-          <p className="text-xl md:text-2xl mb-16 text-gray-600 max-w-4xl mx-auto">
-            Apresentamos o <strong className="text-purple-600">Método60k com estética</strong> - 
-            a solução definitiva para profissionais de estética que querem <strong>AUMENTAR O FATURAMENTO</strong> sem perder tempo com estratégias que não funcionam.
-          </p>
-        </div>
-      </section>
-
-      {/* Product Features */}
-      <section className="py-20 px-4 bg-gradient-to-br from-purple-50 to-pink-50">
+      {/* Section 3: Social Proof + Main Offer */}
+      <section className="py-16 px-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-800">
-            O Que Você Recebe ao Garantir o seu Método Hoje?
+          {/* Social Proof */}
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-white">
+            Quem Já Usou, Aprovou! ⭐⭐⭐⭐⭐
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-2xl shadow-xl border-t-4 border-purple-500 hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6">
-                <Gift className="w-8 h-8 text-purple-600" />
+          <div className="grid md:grid-cols-3 gap-6 mb-16">
+            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+              <div className="flex items-center mb-3">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-4 h-4 fill-yellow-300 text-yellow-300" />
+                ))}
               </div>
-              <h3 className="text-xl font-bold mb-4 text-gray-800">O passo a passo pra ultrapassar os 60k de FATURAMENTO.</h3>
-              <p className="text-gray-600 mb-4">O segredo que clínicas milionárias utilizam pra ir além dos 60k de faturamento!</p>
-              <div className="text-sm text-purple-600 font-semibold">✅ Qualidade Profissional</div>
-            </div>
-            
-            <div className="bg-white p-8 rounded-2xl shadow-xl border-t-4 border-pink-500 hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <div className="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mb-6">
-                <Clock className="w-8 h-8 text-pink-600" />
+              <p className="text-white mb-4 text-sm italic">"Em 2 semanas minha agenda lotou! O passo a passo faz toda a diferença."</p>
+              <div className="flex items-center">
+                <div className="w-10 h-10 bg-purple-300 rounded-full flex items-center justify-center mr-3">
+                  <span className="text-purple-700 font-bold text-sm">MC</span>
+                </div>
+                <div>
+                  <div className="font-semibold text-sm">Marina Costa</div>
+                  <div className="text-xs text-purple-200">Esteticista - SP</div>
+                </div>
               </div>
-              <h3 className="text-xl font-bold mb-4 text-gray-800">95% de Tempo Economizado</h3>
-              <p className="text-gray-600 mb-4">Pare de perder horas criando posts que não vendem. Com nosso conteúdo validado você pode agendar até 10 novos clientes por semana!</p>
-              <div className="text-sm text-pink-600 font-semibold">⏰ Mais Tempo para Atender</div>
             </div>
-            
-            <div className="bg-white p-8 rounded-2xl shadow-xl border-t-4 border-orange-500 hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6">
-                <Zap className="w-8 h-8 text-orange-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-4 text-gray-800">Acesso Vitalício</h3>
-              <p className="text-gray-600 mb-4">Pagamento único! Sem mensalidades, sem taxas escondidas. Acesse quando quiser, para sempre!</p>
-              <div className="text-sm text-orange-600 font-semibold">💎 Investimento Único</div>
-            </div>
-            
-            <div className="bg-white p-8 rounded-2xl shadow-xl border-t-4 border-green-500 hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
-                <Check className="w-8 h-8 text-green-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-4 text-gray-800">Scripts validados por especialidade</h3>
-              <p className="text-gray-600 mb-4">Método Prático: é só acompanhar o passo a passo e colocar em prática pra ver sua agenda começar a lotar.</p>
-              <div className="text-sm text-green-600 font-semibold">🎯 Totalmente Personalizado</div>
-            </div>
-            
-            <div className="bg-white p-8 rounded-2xl shadow-xl border-t-4 border-blue-500 hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
-                <Users className="w-8 h-8 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-4 text-gray-800">Gatilhos de Vendas</h3>
-              <p className="text-gray-600 mb-4">Gatilhos mentais que vão do início da conversa até o momento onde o cliente vai até sua clínica..</p>
-              <div className="text-sm text-blue-600 font-semibold">🧠 Psicologia Aplicada</div>
-            </div>
-            
-            <div className="bg-white p-8 rounded-2xl shadow-xl border-t-4 border-yellow-500 hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-6">
-                <Star className="w-8 h-8 text-yellow-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-4 text-gray-800">3 Bônus Exclusivos</h3>
-              <p className="text-gray-600 mb-4">GRÁTIS: 150 Scripts Validados + Guia de fotos que vendem + Gatilhos Mentais fechar Vendas na Estética!</p>
-              <div className="text-sm text-yellow-600 font-semibold">🎁 Valor Extra R$ 00</div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Social Proof */}
-      <section className="py-20 px-4 bg-white">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-800">
-            Quem Já Usou, Aprovou e Lotou a Agenda! ⭐⭐⭐⭐⭐
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="flex items-center mb-4">
+            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+              <div className="flex items-center mb-3">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+                  <Star key={i} className="w-4 h-4 fill-yellow-300 text-yellow-300" />
                 ))}
               </div>
-              <p className="text-gray-700 mb-6 italic">"Em apenas 2 semanas usando o método, minha agenda estava completamente lotada! O passo a passo faz toda a diferença na atração de clientes."</p>
+              <p className="text-white mb-4 text-sm italic">"Economizei 10+ horas por semana. Meu faturamento triplicou!"</p>
               <div className="flex items-center">
-                <div className="w-12 h-12 bg-purple-200 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-purple-700 font-bold">MC</span>
+                <div className="w-10 h-10 bg-pink-300 rounded-full flex items-center justify-center mr-3">
+                  <span className="text-pink-700 font-bold text-sm">JS</span>
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-800">Marina Costa</div>
-                  <div className="text-sm text-gray-600">Esteticista - São Paulo</div>
+                  <div className="font-semibold text-sm">Juliana Santos</div>
+                  <div className="text-xs text-purple-200">Designer de Sobrancelhas - RJ</div>
                 </div>
               </div>
             </div>
-            
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="flex items-center mb-4">
+
+            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+              <div className="flex items-center mb-3">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+                  <Star key={i} className="w-4 h-4 fill-yellow-300 text-yellow-300" />
                 ))}
               </div>
-              <p className="text-gray-700 mb-6 italic">"O método é incrível. Economizei mais de 10 horas por semana sem precisar fazer sessões fotográficas. Meu faturamento triplicou com o método e as imagens Validadas!"</p>
+              <p className="text-white mb-4 text-sm italic">"Scripts aumentaram meu fechamento. Recebo mensagens todos os dias!"</p>
               <div className="flex items-center">
-                <div className="w-12 h-12 bg-pink-200 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-pink-700 font-bold">JS</span>
+                <div className="w-10 h-10 bg-orange-300 rounded-full flex items-center justify-center mr-3">
+                  <span className="text-orange-700 font-bold text-sm">RF</span>
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-800">Juliana Santos</div>
-                  <div className="text-sm text-gray-600">Designer de Sobrancelhas - RJ</div>
-                </div>
-              </div>
-            </div>
-            
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="flex items-center mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                ))}
-              </div>
-              <p className="text-gray-700 mb-6 italic">"Os scripts me ajudaram muito, aumentei minha taxa de fechamento dos agendamentos que fiz. E minhas postagens agora têm muito mais engajamento e recebo mensagens todos os dias pedindo para agendar. Recomendo demais!"</p>
-              <div className="flex items-center">
-                <div className="w-12 h-12 bg-orange-200 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-orange-700 font-bold">RF</span>
-                </div>
-                <div>
-                  <div className="font-semibold text-gray-800">Renata Ferreira</div>
-                  <div className="text-sm text-gray-600">Terapeuta Capilar - MG</div>
+                  <div className="font-semibold text-sm">Renata Ferreira</div>
+                  <div className="text-xs text-purple-200">Terapeuta Capilar - MG</div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
 
-      {/* CTA Section */}
-      <section className="py-20 px-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-5xl font-bold mb-8">
-            🔥 OFERTA ESPECIAL DE LANÇAMENTO! 🔥
-          </h2>
-          
-          {/* Value Stack */}
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8 max-w-3xl mx-auto">
-            <h3 className="text-2xl font-bold mb-6 text-yellow-300">🎁 TUDO QUE VOCÊ LEVA HOJE:</h3>
-            
-            <div className="space-y-4 text-left">
-              <div className="flex justify-between items-center bg-white/10 rounded-lg p-4">
-                <div>
-                  <div className="font-semibold text-lg">✅ Método60k Com Estética</div>
-                  <div className="text-sm text-purple-200">Marque até 10 agendamentos na primeira semana!!</div>
+          {/* Main Offer */}
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl md:text-5xl font-bold mb-8">
+              🔥 OFERTA ESPECIAL DE LANÇAMENTO! 🔥
+            </h2>
+
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 mb-8">
+              <h3 className="text-2xl font-bold mb-6 text-yellow-300">🎁 TUDO QUE VOCÊ LEVA HOJE:</h3>
+
+              <div className="space-y-3 text-left">
+                <div className="flex justify-between items-center bg-white/10 rounded-lg p-3">
+                  <div>
+                    <div className="font-semibold">✅ Método60k Com Estética</div>
+                    <div className="text-xs text-purple-200">10 agendamentos na 1ª semana</div>
+                  </div>
+                  <div className="line-through text-red-300 text-sm">R$ 97</div>
                 </div>
-                <div className="text-right">
-                  <div className="line-through text-red-300">R$ 97</div>
+
+                <div className="flex justify-between items-center bg-white/10 rounded-lg p-3">
+                  <div>
+                    <div className="font-semibold">📝 BÔNUS: 150 Scripts Validados</div>
+                    <div className="text-xs text-purple-200">Scripts para fechar vendas</div>
+                  </div>
+                  <div className="text-green-300 font-bold text-sm">GRÁTIS</div>
                 </div>
-              </div>
-              
-              <div className="flex justify-between items-center bg-white/10 rounded-lg p-4">
-                <div>
-                  <div className="font-semibold text-lg">📝 BÔNUS #1: 150 Scripts Validados</div>
-                  <div className="text-sm text-purple-200">Scripts prontos para fechar mais vendas. </div>
+
+                <div className="flex justify-between items-center bg-white/10 rounded-lg p-3">
+                  <div>
+                    <div className="font-semibold">🎥 BÔNUS: Guia de Fotos</div>
+                    <div className="text-xs text-purple-200">Fotos que vendem</div>
+                  </div>
+                  <div className="text-green-300 font-bold text-sm">GRÁTIS</div>
                 </div>
-                <div className="text-right">
-                  <div className="line-through text-red-300">R$ 97</div>
-                  <div className="text-green-300 font-bold">GRÁTIS</div>
+
+                <div className="flex justify-between items-center bg-white/10 rounded-lg p-3">
+                  <div>
+                    <div className="font-semibold">🧠 BÔNUS: Gatilhos Mentais</div>
+                    <div className="text-xs text-purple-200">Persuasão aplicada</div>
+                  </div>
+                  <div className="text-green-300 font-bold text-sm">GRÁTIS</div>
                 </div>
-              </div>
-              
-              <div className="flex justify-between items-center bg-white/10 rounded-lg p-4">
-                <div>
-                  <div className="font-semibold text-lg">🎥 BÔNUS #2: Guia de fotos que vendem.</div>
-                  <div className="text-sm text-purple-200">Roteiros completos para criar fotos que transformam seguidores em agendamentos.</div>
-                </div>
-                <div className="text-right">
-                  <div className="line-through text-red-300">R$ 50</div>
-                  <div className="text-green-300 font-bold">GRÁTIS</div>
-                </div>
-              </div>
-              
-              <div className="flex justify-between items-center bg-white/10 rounded-lg p-4">
-                <div>
-                  <div className="font-semibold text-lg">🧠 BÔNUS #3: Guia de Gatilhos Mentais para Vendas</div>
-                  <div className="text-sm text-purple-200">Técnicas avançadas de persuasão aplicadas à estética</div>
-                </div>
-                <div className="text-right">
-                  <div className="line-through text-red-300">R$ 146</div>
-                  <div className="text-green-300 font-bold">GRÁTIS</div>
-                </div>
-              </div>
-              
-              <div className="border-t-2 border-yellow-300 pt-4 mt-6">
-                <div className="flex justify-between items-center text-xl font-bold">
-                  <div>VALOR TOTAL:</div>
-                  <div className="line-through text-red-300">R$ 390</div>
-                </div>
-                <div className="text-center mt-4">
-                  <div className="text-lg mb-2">HOJE VOCÊ PAGA APENAS:</div>
-                  <div className="text-6xl font-bold text-yellow-300 mb-2 animate-pulse">R$ 9,90</div>
-                  <div className="text-lg">💳 Pagamento único - Sem mensalidades!</div>
-                  <div className="text-sm text-green-300 font-semibold mt-2">
-                    💰 ECONOMIA DE R$ 363 (93% OFF)
+
+                <div className="border-t-2 border-yellow-300 pt-4 mt-4">
+                  <div className="flex justify-between items-center text-lg font-bold mb-3">
+                    <div>VALOR TOTAL:</div>
+                    <div className="line-through text-red-300">R$ 390</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-base mb-2">HOJE VOCÊ PAGA APENAS:</div>
+                    <div className="text-5xl md:text-6xl font-bold text-yellow-300 mb-2 animate-pulse">R$ 9,90</div>
+                    <div className="text-base">💳 Pagamento único - Sem mensalidades!</div>
+                    <div className="text-sm text-green-300 font-semibold mt-2">
+                      💰 ECONOMIA DE R$ 380 (97% OFF)
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          
-          <p className="text-xl mb-8">⚠️ Esta oferta é por TEMPO LIMITADO e para as primeiras 100 pessoas!</p>
-          <a
-            href="https://pay.kiwify.com.br/QvaBrg1"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-6 px-12 rounded-full text-2xl shadow-2xl transform hover:scale-105 transition-all duration-300 mb-6 animate-bounce-slow inline-block"
-          >
-            🚀 SIM! QUERO GARANTIR POR R$ 9,90!
-          </a>
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-6 text-sm">
-            <div className="flex items-center gap-2">
-              <Check className="w-5 h-5 text-green-400" />
-              <span>Acesso Imediato</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Check className="w-5 h-5 text-green-400" />
-              <span>Garantia 7 Dias</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Check className="w-5 h-5 text-green-400" />
-              <span>Suporte Exclusivo</span>
+
+            <p className="text-lg mb-6">⚠️ Oferta LIMITADA para as primeiras 100 pessoas!</p>
+            <a
+              href="https://pay.kiwify.com.br/QvaBrg1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-5 px-10 rounded-full text-xl shadow-2xl transform hover:scale-105 transition-all duration-300 mb-6 animate-pulse inline-block"
+            >
+              🚀 SIM! QUERO GARANTIR POR R$ 9,90!
+            </a>
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-4 text-sm">
+              <div className="flex items-center gap-2">
+                <Check className="w-4 h-4 text-green-400" />
+                <span>Acesso Imediato</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Check className="w-4 h-4 text-green-400" />
+                <span>Garantia 7 Dias</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Check className="w-4 h-4 text-green-400" />
+                <span>Suporte Exclusivo</span>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-20 px-4 bg-gray-50">
+      {/* Section 4: FAQ Compact */}
+      <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-800">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-gray-800">
             Dúvidas Frequentes 🤔
           </h2>
-          <div className="space-y-6">
-            <FAQItem 
-              question="Para quem é o Método60k com Estética?"
-              answer="Para todas as profissionais de estética: Esteticistas, Designers de Sobrancelha, Terapeutas Capilares, Micropigmentadoras, profissionais de Harmonização Facial e qualquer pessoa que trabalhe com beleza e bem-estar."
+          <div className="space-y-4">
+            <FAQItem
+              question="Para quem é o Método60k?"
+              answer="Para todas as profissionais de estética: Esteticistas, Designers de Sobrancelha, Terapeutas Capilares, Micropigmentadoras e profissionais de Harmonização Facial."
             />
-            <FAQItem 
-              question="Preciso ter conhecimento em Marketing ou edição?"
-              answer="Não! A metodologia e fotos são totalmente práticas para uso. Você só precisa baixar e postar com sua marca. É simples assim!"
+            <FAQItem
+              question="Preciso ter conhecimento em Marketing?"
+              answer="Não! A metodologia é totalmente prática. Você só precisa baixar e aplicar. É simples assim!"
             />
-            <FAQItem 
-              question="O acesso é realmente para sempre?"
-              answer="Sim! Pagamento único de R$ 9,90 e você tem acesso vitalício ao kit completo. Sem mensalidades, sem taxas extras, sem pegadinhas. É seu para sempre!"
+            <FAQItem
+              question="O acesso é para sempre?"
+              answer="Sim! Pagamento único de R$ 9,90 e acesso vitalício. Sem mensalidades, sem taxas extras, sem pegadinhas!"
             />
-            <FAQItem 
-              question="Como recebo o Método?"
-              answer="Após a confirmação do pagamento, você receberá imediatamente por e-mail o link de acesso à plataforma com todo conteúdo."
-            />
-            <FAQItem 
-              question="Há garantia de satisfação?"
-              answer="Sim! Oferecemos 7 dias de garantia total. Se por qualquer motivo não ficar satisfeita, devolvemos 100% do seu investimento, sem perguntas!"
+            <FAQItem
+              question="Há garantia?"
+              answer="Sim! 7 dias de garantia total. Se não ficar satisfeita, devolvemos 100% do seu investimento!"
             />
           </div>
         </div>
       </section>
 
-      {/* Final CTA */}
-      <section className="py-20 px-4 bg-gradient-to-br from-purple-600 via-purple-700 to-pink-600 text-white">
+      {/* Section 5: Final CTA + Footer */}
+      <section className="py-16 px-4 bg-gradient-to-br from-purple-600 via-purple-700 to-pink-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">
-            ⏰ Última Chance de Garantir seu Método com 93% de Desconto!
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            ⏰ Última Chance - 97% de Desconto!
           </h2>
-          <p className="text-xl mb-8">Não perca mais tempo criando Conteúdos amadores que não vendem!</p>
-          <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6 mb-8 max-w-md mx-auto">
-            <div className="text-lg mb-2">⏳ Valor limitado:</div>
+          <p className="text-lg mb-6">Não perca mais tempo criando conteúdos que não vendem!</p>
+          <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6 mb-6 max-w-md mx-auto">
+            <div className="text-base mb-2">⏳ Valor limitado:</div>
             <div className="text-3xl font-bold text-yellow-300 animate-pulse">
-              De <span className="line-through">R$363</span> por R$9,90
+              De <span className="line-through">R$390</span> por R$9,90
             </div>
-          </div>
-          <div className="mb-6">
-            <div className="text-lg mb-2">🔥 OFERTA COMPLETA:</div>
-            <div className="text-sm text-purple-200">Método60k + 3 Bônus Exclusivos (Valor R$ 9,90)</div>
           </div>
           <a
             href="https://pay.kiwify.com.br/QvaBrg1"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-6 px-12 rounded-full text-2xl shadow-2xl transform hover:scale-105 transition-all duration-300 mb-8 animate-pulse-slow inline-block"
+            className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-5 px-10 rounded-full text-xl shadow-2xl transform hover:scale-105 transition-all duration-300 mb-6 animate-pulse inline-block"
           >
-            🔥 GARANTIR MEU Método AGORA - R$ 9,90
+            🔥 GARANTIR AGORA - R$ 9,90
           </a>
-          <div className="text-sm text-purple-200">
-            ✅ Acesso imediato • ✅ Garantia de 7 dias • ✅ Acesso a atualizações
+          <div className="text-sm text-purple-200 mb-12">
+            ✅ Acesso imediato • ✅ Garantia 7 dias • ✅ Suporte exclusivo
+          </div>
+
+          {/* Footer */}
+          <div className="border-t border-white/20 pt-8 mt-8">
+            <h3 className="text-xl font-bold mb-3">Método60k com Estética</h3>
+            <p className="text-purple-200 text-sm mb-6">A solução para profissionais de estética que querem lotar sua agenda.</p>
+            <div className="text-xs text-purple-300">
+              <p>© 2024 Método60k com Estética. Todos os direitos reservados.</p>
+              <p className="mt-2">Este produto não garante resultados. Os resultados podem variar de pessoa para pessoa.</p>
+            </div>
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h3 className="text-2xl font-bold mb-4">Método60k com Estética</h3>
-          <p className="text-gray-400 mb-8">A solução definitiva para profissionais de estética que querem lotar sua agenda com estratégias validadas.</p>
-          <div className="border-t border-gray-700 pt-8 text-sm text-gray-400">
-            <p>© 2024 Método60k com Estética.. Todos os direitos reservados.</p>
-            <p className="mt-2">Este produto não garante resultados. Os resultados podem variar de pessoa para pessoa.</p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
